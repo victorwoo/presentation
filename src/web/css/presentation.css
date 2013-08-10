@@ -9,8 +9,11 @@ body {
   background-color: rgba(224, 255, 255, 0.5);
   border-collapse: collapse;
 }
-#marquee {
+.marquee {
   height: 70px;
+  font-size: 3em;
+  color: white;
+  overflow-x: hidden;
   border: dashed rgba(255, 255, 255, 0.5) 1px;
   background-color: rgba(224, 255, 255, 0.5);
   border-collapse: collapse;

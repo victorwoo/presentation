@@ -1,4 +1,15 @@
 $(function(){
+    $('.marquee').marquee({
+        speed: 10000,
+        gap: 20,
+        delayBeforeStart: 0,
+        direction: 'left',
+        width: '1920px',
+        pauseOnHover: true
+    });
+
+
+
     $("#content table#main a").click(function() {
         var hash = this.hash.slice(1);
         var url="";
