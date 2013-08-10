@@ -33,6 +33,7 @@ body {
 #title {
   height: 165px;
   border: dashed rgba(255, 255, 255, 0.5) 1px;
+  background-color: rgba(224, 255, 255, 0.15);
   border-collapse: collapse;
 }
 .marquee {
@@ -44,6 +45,7 @@ body {
   text-shadow: 5px 5px 5px #808080;
   letter-spacing: 0.5em;
   border: dashed rgba(255, 255, 255, 0.5) 1px;
+  background-color: rgba(224, 255, 255, 0.15);
   border-collapse: collapse;
 }
 #content .detail {
@@ -58,6 +60,7 @@ body {
   left: 1600px;
   top: 850px;
   border: dashed rgba(255, 255, 255, 0.5) 1px;
+  background-color: rgba(224, 255, 255, 0.15);
   border-collapse: collapse;
 }
 #content .sub02 .buttons {
@@ -67,6 +70,7 @@ body {
   width: 180px;
   height: 200px;
   border: dashed rgba(255, 255, 255, 0.5) 1px;
+  background-color: rgba(224, 255, 255, 0.15);
   border-collapse: collapse;
   cursor: pointer;
 }
