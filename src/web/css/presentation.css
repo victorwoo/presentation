@@ -1,0 +1,23 @@
+body {
+  background-image: url("../img/background.jpg");
+  width: 1920px;
+  height: 1080px;
+}
+#title {
+  height: 150px;
+  border: dashed rgba(255, 255, 255, 0.5) 1px;
+  background-color: rgba(224, 255, 255, 0.5);
+  border-collapse: collapse;
+}
+#marquee {
+  height: 70px;
+  border: dashed rgba(255, 255, 255, 0.5) 1px;
+  background-color: rgba(224, 255, 255, 0.5);
+  border-collapse: collapse;
+}
+#content table#main {
+  margin: 50px;
+}
+#content table#main td {
+  padding: 0 120px 0 120px;
+}
