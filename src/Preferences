@@ -1,0 +1,361 @@
+{
+   "countryid_at_install": 17230,
+   "default_apps_install_state": 3,
+   "dns_prefetching": {
+      "host_referral_list": [ 2 ],
+      "startup_list": [ 1, "https://www.google.com/" ]
+   },
+   "download": {
+      "directory_upgrade": true
+   },
+   "extensions": {
+      "autoupdate": {
+         "next_check": "13020768049947455"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "last_chrome_version": "26.0.1410.12",
+      "settings": {
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "active_permissions": {
+               "api": [ "appNotifications", "management", "webstorePrivate" ]
+            },
+            "app_launcher_ordinal": "n",
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13020750092614455",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://chrome.google.com/webstore"
+                  },
+                  "urls": [ "https://chrome.google.com/webstore" ]
+               },
+               "description": "Web Store",
+               "icons": {
+                  "128": "webstore_icon_128.png",
+                  "16": "webstore_icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtl3tO0osjuzRsf6xtD2SKxPlTfuoy7AWoObysitBPvH5fE1NaAA1/2JkPWkVDhdLBWLaIBPYeXbzlHp3y4Vv/4XG+aN5qFE3z+1RU/NqkzVYHtIpVScf3DjTYtKVL66mzVGijSoAIwbFCC3LpGdaoe6Q1rSRDp76wR6jjFzsYwQIDAQAB",
+               "name": "Chrome Web Store",
+               "permissions": [ "appNotifications", "webstorePrivate", "management" ],
+               "version": "0.1"
+            },
+            "page_ordinal": "n",
+            "path": "D:\\current\\presentation\\ChromiumPortable\\App\\Chromium\\resources\\web_store",
+            "was_installed_by_default": false
+         },
+         "cngicmmkocjjbmacacmchjhdimdhfgod": {
+            "active_permissions": {
+               "api": [ "tabs" ],
+               "explicit_host": [ "http://*/*", "https://*/*" ],
+               "scriptable_host": [ "file:///*.*", "ftp://*/*", "http://*/*", "https://*/*" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13020750093252515",
+            "location": 3,
+            "manifest": {
+               "background_page": "background.html",
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "js": [ "grabword.js" ],
+                  "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file://*.*" ]
+               } ],
+               "current_locale": "en_US",
+               "default_locale": "zh_CN",
+               "description": "Help Kingsoft Powerword to grab word in the browser",
+               "homepage_url": "http://www.iciba.com/",
+               "icons": {
+                  "128": "icons/icon128.png",
+                  "16": "icons/icon16.png",
+                  "48": "icons/icon48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD8s7xx4cFWKtsietDPuiIcXOYOonhTJCpVIieiX6c4770AhEfE98whctoS9EY9UhnCCqqD085MUgJBJuzVKmJqffI/ARsSoYZCfUGqtSgXPQ9zyzCk2xykDaM/ywspx0BXqsCatPZfXHV+0SOcX6+vMHUAgogTu2UXN4HOnWeMKQIDAQAB",
+               "name": "Kingsoft Powerword Grab Word",
+               "permissions": [ "http://*/*", "https://*/*", "tabs" ],
+               "version": "2.1"
+            },
+            "path": "cngicmmkocjjbmacacmchjhdimdhfgod\\2.1_0",
+            "state": 0,
+            "was_installed_by_default": false
+         },
+         "edaibbiobngpbmeonadpbfafbkimjbdd": {
+            "ack_prompt_count": 1,
+            "active_permissions": {
+               "api": [ "tabs" ],
+               "explicit_host": [ "http://*/*", "https://*/*" ],
+               "scriptable_host": [ "\u003Call_urls\u003E" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13020750093097515",
+            "location": 3,
+            "manifest": {
+               "background": {
+                  "page": "bg.html"
+               },
+               "content_scripts": [ {
+                  "exclude_globs": [ "*://maps.google.*", "*://www.mapquest.*", "*://maps.nationalgeographic.*", "*://maps.nokia.*", "*://maps.randmcnally.*", "*://www.bing.*/maps*", "*://www.openstreetmap.*", "*://maps.yahoo.*", "*://mobility.ch/*", "*://maps4pc.com/*", "*://memorabilia.hardrock.com/*", "*://kubische-panoramen.de/*", "*://hot-map.com/*", "*://navteq.com/*", "*://wikimapia.org/*", "*://maps.baidu.com/*", "*://maps.soso.com/*", "*://edcns.17.cr.usgs.gov/*", "*://hewsweb.org/*", "*://mapapps.esri.com/*", "*://mytopo.com/*", "*://skyvector.com/*", "*://join.me/*" ],
+                  "js": [ "htmlhelpers.js", "content.js" ],
+                  "matches": [ "\u003Call_urls\u003E" ]
+               }, {
+                  "include_globs": [ "*://maps.google.*", "*://www.mapquest.*", "*://maps.nationalgeographic.*", "*://maps.nokia.*", "*://maps.randmcnally.*", "*://www.bing.*/maps*", "*://www.openstreetmap.*", "*://maps.yahoo.*", "*://mobility.ch/*", "*://maps4pc.com/*", "*://memorabilia.hardrock.com/*", "*://hot-map.com/*", "*://navteq.com/*", "*://wikimapia.org/*", "*://maps.baidu.com/*", "*://maps.soso.com/*", "*://edcns.17.cr.usgs.gov/*", "*://hewsweb.org/*", "*://mapapps.esri.com/*", "*://mytopo.com/*", "*://skyvector.com/*", "*://join.me/*" ],
+                  "js": [ "htmlhelpers.js", "content_lores.js" ],
+                  "matches": [ "\u003Call_urls\u003E" ]
+               } ],
+               "description": "Logitech \u9F20\u6807\u4E13\u6709\u7684\u5E73\u6ED1\u6EDA\u52A8\u529F\u80FD\u3002",
+               "icons": {
+                  "128": "icon128.png",
+                  "48": "icon48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCx7TQut5909Uc/jiHXr5RAcTNRW3cEMdLR+nH3nNtl96KxoJi3+cqC4Qcy285tQm3qIj7WjfZZZ0Ipp+r6sIy7IdPWSuEeE2FoNVCvizzNXyc1x4W4+us8OZKfKVmNzKZCoo1c0eLHyJfePF6iJyTMozvk6cWCq7Pdk3gWZbKxjwIDAQAB",
+               "manifest_version": 2,
+               "name": "Logitech SetPoint",
+               "permissions": [ "http://*/*", "https://*/*", "tabs" ],
+               "version": "6.52.74"
+            },
+            "path": "edaibbiobngpbmeonadpbfafbkimjbdd\\6.52.74_0",
+            "state": 0,
+            "was_installed_by_default": false
+         },
+         "eemcgdkfndhakfknompkggombfjjjeno": {
+            "active_permissions": {
+               "api": [ "bookmarks", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs" ],
+               "explicit_host": [ "chrome://favicon/*", "chrome://resources/*" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13020750092610455",
+            "location": 5,
+            "manifest": {
+               "chrome_url_overrides": {
+                  "bookmarks": "main.html"
+               },
+               "content_security_policy": "object-src 'none'; script-src chrome://resources 'self'",
+               "description": "Bookmark Manager",
+               "incognito": "split",
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQcByy+eN9jzazWF/DPn7NW47sW7lgmpk6eKc0BQM18q8hvEM3zNm2n7HkJv/R6fU+X5mtqkDuKvq5skF6qqUF4oEyaleWDFhd1xFwV7JV+/DU7bZ00w2+6gzqsabkerFpoP33ZRIw7OviJenP0c0uWqDWF8EGSyMhB3txqhOtiQIDAQAB",
+               "manifest_version": 2,
+               "name": "Bookmark Manager",
+               "permissions": [ "bookmarks", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs", "chrome://favicon/", "chrome://resources/" ],
+               "version": "0.1"
+            },
+            "path": "D:\\current\\presentation\\ChromiumPortable\\App\\Chromium\\resources\\bookmark_manager",
+            "was_installed_by_default": false
+         },
+         "ennkphjdgehloodpbhlhldgbnhmacadg": {
+            "active_permissions": {
+               "api": [ "app.currentWindowInternal", "app.runtime", "app.window" ],
+               "explicit_host": [ "chrome://settings-frame/*" ]
+            },
+            "app_launcher_ordinal": "w",
+            "creation_flags": 1,
+            "events": [ "app.runtime.onLaunched" ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13020750092616455",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "background": {
+                     "scripts": [ "settings_app.js" ]
+                  }
+               },
+               "description": "Settings",
+               "display_in_launcher": true,
+               "display_in_new_tab_page": false,
+               "icons": {
+                  "128": "settings_app_icon_128.png",
+                  "16": "settings_app_icon_16.png",
+                  "32": "settings_app_icon_32.png",
+                  "48": "settings_app_icon_48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDoVDPGX6fvKPVVgc+gnkYlGqHuuapgFDyKhsy4z7UzRLO/95zXPv8h8e5EacqbAQJLUbP6DERH5jowyNEYVxq9GJyntJMwP1ejvoz/52hnY3CCGGCmttmKzzpp5zwLuq3iZf8bslwywfflNUYtaCFSDa0TtrBZz0aOPrAAd/AhNwIDAQAB",
+               "manifest_version": 2,
+               "name": "Settings",
+               "permissions": [ "chrome://settings-frame/" ],
+               "version": "0.1"
+            },
+            "page_ordinal": "n",
+            "path": "D:\\current\\presentation\\ChromiumPortable\\App\\Chromium\\resources\\settings_app",
+            "running": true,
+            "was_installed_by_default": false
+         },
+         "hdokiejnpimakedhajhdlcegeplioahd": {
+            "active_permissions": {
+               "api": [ "contextMenus", "idle", "notifications", "plugin", "tabs", "unlimitedStorage", "webRequest", "webRequestBlocking", "webRequestInternal" ],
+               "explicit_host": [ "http://*/*", "https://*/*" ],
+               "scriptable_host": [ "file:///*", "http://*/*", "https://*/*" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13020750094936515",
+            "location": 3,
+            "manifest": {
+               "background_page": "background.html",
+               "browser_action": {
+                  "default_icon": "icon_gray2.gif",
+                  "default_title": "LastPass",
+                  "popup": "lp_toolstrip.html?browseraction=1"
+               },
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "js": [ "onloadwff.js" ],
+                  "matches": [ "http://*/*", "https://*/*", "file:///*" ],
+                  "run_at": "document_start"
+               }, {
+                  "all_frames": true,
+                  "js": [ "csp.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_start"
+               } ],
+               "content_security_policy": "default-src 'self' 'unsafe-eval' 'unsafe-inline' https://lastpass.com https://rodan.lastpass.com http://lastpass.com http://rodan.lastpass.com about: https://www.youtube.com; img-src 'self' data: https://lastpass.com https://rodan.lastpass.com",
+               "current_locale": "en_US",
+               "default_locale": "en_US",
+               "description": "LastPass is a free password manager and form filler.  LastPass is also available for Firefox, Internet Explorer, Opera and Safari.",
+               "icons": {
+                  "128": "images/icon128.png",
+                  "16": "images/icon16.png",
+                  "32": "images/icon32.png",
+                  "48": "images/icon48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiL9y2jziKp5kjb13uYG1bAXsuemUKAYUAwR/N9qTuhMIuly02Ecm63dOkn+M2r26IGfDE/lbPv/dB/W+d34pqGo5uJJY+Omt9t3xsIuz7mQwuvF1H5ozj0OHok5XDFRaBIfPa06RhQw3M7sSZJvQ+qqD3+dr0aLX+mvi0LQ11uQIDAQAB",
+               "name": "LastPass",
+               "omnibox": {
+                  "keyword": "lp"
+               },
+               "options_page": "prefs.html",
+               "permissions": [ "tabs", "idle", "notifications", "contextMenus", "unlimitedStorage", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*" ],
+               "plugins": [ {
+                  "path": "nplastpass.dll"
+               } ],
+               "update_url": "https://lastpass.com/upgrade.php?binary=1",
+               "version": "2.0.1"
+            },
+            "path": "hdokiejnpimakedhajhdlcegeplioahd\\2.0.1_0",
+            "state": 0,
+            "was_installed_by_default": false
+         },
+         "mfehgcgbbipciphmccgaenjidiccnmng": {
+            "active_permissions": {
+               "api": [ "cloudPrintPrivate" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13020750092613455",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://www.google.com/cloudprint"
+                  },
+                  "urls": [ "https://www.google.com/cloudprint/enable_chrome_connector" ]
+               },
+               "description": "Cloud Print",
+               "display_in_launcher": false,
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqOhnwk4+HXVfGyaNsAQdU/js1Na56diW08oF1MhZiwzSnJsEaeuMN9od9q9N4ZdK3o1xXOSARrYdE+syV7Dl31nf6qz3A6K+D5NHe6sSB9yvYlIiN37jdWdrfxxE0pRYEVYZNTe3bzq3NkcYJlOdt1UPcpJB+isXpAGUKUvt7EQIDAQAB",
+               "name": "Cloud Print",
+               "permissions": [ "cloudPrintPrivate" ],
+               "version": "0.1"
+            },
+            "path": "D:\\current\\presentation\\ChromiumPortable\\App\\Chromium\\resources\\cloud_print",
+            "was_installed_by_default": false
+         },
+         "mgndgikekgjfcpckkfioiadnlibdjbkf": {
+            "app_launcher_ordinal": "t",
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13020750092614455",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "http://THIS-WILL-BE-REPLACED"
+                  }
+               },
+               "description": "Chrome as an app",
+               "display_in_launcher": true,
+               "display_in_new_tab_page": false,
+               "icons": {
+                  "128": "product_logo_128.png",
+                  "16": "product_logo_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNuYLEQ1QPMcc5HfWI/9jiEf6FdJWqEtgRmIeI7qtjPLBM5oje+Ny2E2mTAhou5qdJiO2CHWdU1DQXY2F7Zu2gZaKZgHLfK4WimHxUT5Xd9/aro/R9PCzjguM1BLusiWYc9xlj1IsZpyiN1hcjU7SCnBhv1feQlv2WSB5KRiXwhQIDAQAB",
+               "name": "Chromium Portable",
+               "version": "0.1"
+            },
+            "page_ordinal": "n",
+            "path": "D:\\current\\presentation\\ChromiumPortable\\App\\Chromium\\resources\\chrome_app",
+            "was_installed_by_default": false
+         },
+         "nobfdmmammchijbkljbjkalkjjbhcgdp": {
+            "active_permissions": {
+               "api": [ "contextMenus", "tabs" ],
+               "explicit_host": [ "http://*/*", "https://*/*" ],
+               "scriptable_host": [ "http://*/*", "https://*/*" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13020750093344515",
+            "location": 3,
+            "manifest": {
+               "background": {
+                  "page": "background.html"
+               },
+               "content_scripts": [ {
+                  "js": [ "content_script.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ]
+               } ],
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "QQDownload chrome plugin",
+               "icons": {
+                  "128": "icon128.png",
+                  "16": "icon16.png",
+                  "48": "icon48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZ6QTPFGrAdueivIVOxtFjr2Wfp84vQqQVMz6g9Xn+kkHEMz5dNLRsOUY+KSJP+H7m7hZexfK1mbo0HnpT/MoyQYxPnbuPogb9Mzier20gcmfxoz0Iiyld6XcsM85Z81v7Uodn+ACul/795+Y9RkDyjWxDlzjkY4ABqrO31TwdMQIDAQAB",
+               "manifest_version": 2,
+               "name": "QQDownload",
+               "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*" ],
+               "version": "0.9"
+            },
+            "path": "nobfdmmammchijbkljbjkalkjjbhcgdp\\0.9_0",
+            "state": 0,
+            "was_installed_by_default": false
+         }
+      }
+   },
+   "plugins": {
+      "enabled_internal_pdf3": true,
+      "enabled_nacl": true,
+      "migrated_to_pepper_flash": true
+   },
+   "profile": {
+      "avatar_index": 0,
+      "content_settings": {
+         "clear_on_exit_migrated": true,
+         "pref_version": 1
+      },
+      "created_by_version": "26.0.1410.12",
+      "exit_type": "Normal",
+      "exited_cleanly": true,
+      "is_managed": false,
+      "name": "First user"
+   },
+   "session": {
+      "restore_on_startup_migrated": true
+   },
+   "translate_language_blacklist": [ "zh-CN" ]
+}
