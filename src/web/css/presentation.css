@@ -32,9 +32,6 @@ body {
 }
 #title {
   height: 165px;
-  border: dashed rgba(255, 255, 255, 0.5) 1px;
-  background-color: rgba(224, 255, 255, 0.15);
-  border-collapse: collapse;
 }
 .marquee {
   height: 55px;
@@ -44,24 +41,18 @@ body {
   font-family: trends, Microsoft YaHei, SimHei;
   text-shadow: 5px 5px 5px #808080;
   letter-spacing: 0.5em;
-  border: dashed rgba(255, 255, 255, 0.5) 1px;
-  background-color: rgba(224, 255, 255, 0.15);
-  border-collapse: collapse;
 }
 #content .detail {
   margin: 50px 100px 50px 100px;
   font-size: 2em;
   color: white;
 }
-#content .sub01,
-#content .sub03,
+#content .sub01 .buttons,
+#content .sub03 .buttons,
 #content .sub04 .buttons {
   position: absolute;
   left: 1600px;
   top: 850px;
-  border: dashed rgba(255, 255, 255, 0.5) 1px;
-  background-color: rgba(224, 255, 255, 0.15);
-  border-collapse: collapse;
 }
 #content .sub02 .buttons {
   position: absolute;
@@ -69,10 +60,27 @@ body {
   top: 900px;
   width: 180px;
   height: 200px;
-  border: dashed rgba(255, 255, 255, 0.5) 1px;
-  background-color: rgba(224, 255, 255, 0.15);
-  border-collapse: collapse;
   cursor: pointer;
+}
+#content .sub03 .text {
+  position: absolute;
+  left: 35px;
+  top: 340px;
+  color: red;
+  font-size: 1.75em;
+  font-family: SimHei;
+  width: 265px;
+}
+#content .sub03 .video {
+  position: absolute;
+  left: 600px;
+  top: 328px;
+  width: 978px;
+  height: 612px;
+}
+#content .sub03 .video video {
+  width: 100%;
+  height: 100%;
 }
 #content table#main {
   margin: 0px 50px;
